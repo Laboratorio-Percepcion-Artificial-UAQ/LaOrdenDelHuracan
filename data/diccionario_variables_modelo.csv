@@ -1,0 +1,15 @@
+﻿variable,descripcion
+storm_id,Identificador único del ciclón
+name,Nombre del ciclón
+datetime,Fecha y hora del nodo actual
+datetime_siguiente,Fecha y hora del siguiente nodo observado
+nodo_actual,Nodo topológico actual HDBSCAN
+nodo_siguiente_real,Ground truth: siguiente nodo real observado
+era5_*,Variables ambientales extraídas de ERA5 en el punto de trayectoria
+cem_*,Variables orográficas extraídas del CEM/grid en el punto de trayectoria
+nodo_era5_*,Agregados ERA5 por nodo topológico
+nodo_cem_*,Agregados CEM/grid por nodo topológico
+gt_era5_*,Agregados ERA5 por arista observada
+gt_cem_*,Agregados CEM/grid por arista observada
+gt_probabilidad_transicion,Probabilidad histórica de transición observada
+costo_dijkstra,Costo de arista basado en probabilidad y frecuencia
