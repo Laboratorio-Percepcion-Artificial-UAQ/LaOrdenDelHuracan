@@ -357,22 +357,38 @@ If you use this repository in academic or technical work, please cite it as:
 ```
 
 This repository was developed as a collaborative academic and technical effort between the Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro, and the Instituto Mexicano de Tecnología del Agua (IMTA).
-```
 
-If this repository becomes associated with a manuscript, technical report, dataset, or challenge submission, please also cite the corresponding academic reference.
 
 ---
 
 ## License
 
-No license file is currently specified in this draft. Before public reuse, redistribution, or academic release, it is recommended to add a license file to the repository.
+This repository is intended for academic and research purposes.
 
-A common option for academic code repositories is the MIT License, although the final license should be selected according to the authors' institutional and project requirements.
+Unless otherwise stated, the source code in this repository may be released under an open-source license to be defined by the project authors and participating institutions. The data, figures, derived products, and methodological outputs may be subject to additional terms depending on their origin, processing, and institutional agreements.
+
+The project was developed as a collaborative effort between the Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro, and the Instituto Mexicano de Tecnología del Agua (IMTA). Users interested in reusing, adapting, or redistributing any component of this repository should contact the project authors before doing so.
+
+A formal `LICENSE` file will be added once the final licensing terms are approved.
 
 ---
+
+## Project team
+
+### Intellectual and methodological authors
+
+* **Laboratorio de Percepción Artificial** — Universidad Autónoma de Querétaro (UAQ)
+* **Instituto Mexicano de Tecnología del Agua (IMTA)**
+
+### Contributors
+
+* **[Kay García Sánchez]** — [UAQ / Desarrolladora Fase Topólogica] — [kgarcia85@alumnos.uaq.mx]
+* **[Mtra. Cecilia Téllez Quintanar]** — [IMTA / Desarrolladora Análisis de Frecuencias] — [cecilia.tellez.quintanar@gmail.com]
+* **[Dr. Jorge Luis Pérez Ramos]** — [UAQ / Desarrollador Modelo Gráfico Enriquecido] — [jorge.luis.perez@uaq.mx]
+* **[Dr. Daniel Cantón Enríquez]** — [UAQ / Desarrollador Modelo gráfico probabilístico] — [daniel.canton@uaq.mx]
 
 ## Contact
 
 For questions, comments, or reports related to this repository, please use the GitHub issue tracker.
 
-For academic inquiries, contact the project team through the Laboratorio de Percepción Artificial, Facultad de Informática, Universidad Autónoma de Querétaro.
+For academic or technical inquiries, contact the members of the project team from the **Laboratorio de Percepción Artificial**, Universidad Autónoma de Querétaro, and the **Instituto Mexicano de Tecnología del Agua (IMTA)**.
