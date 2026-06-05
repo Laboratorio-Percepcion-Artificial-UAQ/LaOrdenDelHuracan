@@ -57,19 +57,15 @@ This repository supports a graph-based probabilistic workflow for hurricane traj
 
 The implemented model can be interpreted as a graph-based dynamic probabilistic model, where the transition structure is defined by the directed graph and the transition weights are given by:
 
-[
-P(Z_{t+1} \mid Z_t)
-]
+ $$P(Z_{t+1} \mid Z_t)$$
 
-where (Z_t) represents the current spatial node and (Z_{t+1}) represents the next probable node in the hurricane trajectory.
+where $$Z_t$$ represents the current spatial node and $$Z_{t+1}$$ represents the next probable node in the hurricane trajectory.
 
 When additional evidence is included, the model can be extended as:
 
-[
-P(Z_{t+1} \mid Z_t, X_t)
-]
+$$P(Z_{t+1} \mid Z_t, X_t)$$
 
-where (X_t) may represent temporal, physical, atmospheric, or orographic attributes.
+where $$X_t$$ may represent temporal, physical, atmospheric, or orographic attributes.
 
 ---
 
