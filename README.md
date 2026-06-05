@@ -385,7 +385,7 @@ A formal `LICENSE` file will be added once the final licensing terms are approve
 * **[Kay García Sánchez]** — [UAQ / Desarrolladora Fase Topólogica] — [kgarcia85@alumnos.uaq.mx]
 * **[Mtra. Cecilia Téllez Quintanar]** — [IMTA / Desarrolladora Análisis de Frecuencias] — [cecilia.tellez.quintanar@gmail.com]
 * **[Dr. Jorge Luis Pérez Ramos]** — [UAQ / Desarrollador Modelo Gráfico Enriquecido] — [jorge.luis.perez@uaq.mx]
-* **[Dr. Daniel Cantón Enríquez]** — [UAQ / Desarrollador Modelo gráfico probabilístico] — [daniel.canton@uaq.mx]
+* **[Dr. Daniel Cantón Enríquez]** — [UAQ / Desarrollador Modelo Gráfico Probabilístico] — [daniel.canton@uaq.mx]
 
 ## Contact
 
