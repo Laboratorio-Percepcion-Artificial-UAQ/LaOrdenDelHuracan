@@ -152,16 +152,14 @@ The file `grafo_aristas.csv` contains the enriched edge representation of the hu
 
 Together, these files allow the construction of a directed graph:
 
-[
-G = (V, E, A_E, W)
-]
+$$G = (V, E, A_E, W)$$
 
 where:
 
-* (V) is the set of spatial nodes;
-* (E) is the set of directed hurricane transitions;
-* (A_E) is the set of attributes associated with each edge;
-* (W) is the set of probabilistic weights.
+* $$V$$ is the set of spatial nodes;
+* $$E$$ is the set of directed hurricane transitions;
+* $$A_E$$ is the set of attributes associated with each edge;
+* $$W$$ is the set of probabilistic weights.
 
 ---
 
@@ -302,30 +300,27 @@ The script `pgm_mapa_probabilistico.py` generates the following files:
 
 The model starts from a historical transition probability:
 
-[
-P_{\text{hist}}(Z_{t+1}=j \mid Z_t=i)
-]
+$$P_{\text{hist}}(Z_{t+1}=j \mid Z_t=i)$$
 
 When additional evidence is used, the transition probability is adjusted as:
 
-[
-P(Z_{t+1}=j \mid Z_t=i, X=e)
+$$P(Z_{t+1}=j \mid Z_t=i, X=e)
 \propto
 P_{\text{hist}}(j \mid i) \cdot score(e \mid i \rightarrow j)
-]
+$$
 
 where (score(e \mid i \rightarrow j)) represents how compatible a transition is with the provided evidence.
 
 The Monte Carlo simulation produces multiple possible trajectories. These trajectories are then spatially rasterized into a regular grid. The probability assigned to each grid cell is calculated as:
 
-[
+$$
 P(c) =
 \frac{
 \text{number of simulations crossing cell } c
 }{
 \text{total number of simulations}
 }
-]
+$$
 
 Thus, the final map is not a deterministic line or a cone of uncertainty, but a spatial probability surface.
 
