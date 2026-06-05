@@ -348,12 +348,18 @@ If you use this repository in academic or technical work, please cite it as:
 
 ```bibtex
 @misc{laordendelhuran2026,
-  author       = {{Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro}},
+  author       = {{Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro} and {Instituto Mexicano de Tecnología del Agua}},
   title        = {{La Orden del Huracán: Graph-Based Probabilistic Modeling for Hurricane Trajectory Maps}},
   year         = {2026},
   howpublished = {\url{https://github.com/Laboratorio-Percepcion-Artificial-UAQ/LaOrdenDelHuracan}},
   note         = {GitHub repository}
 }
+```
+
+This repository was developed as a collaborative academic and technical effort between the Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro, and the Instituto Mexicano de Tecnología del Agua (IMTA).
+
+If this repository becomes associated with a manuscript, technical report, dataset, or challenge submission, please also cite the corresponding academic reference.
+
 ```
 
 If this repository becomes associated with a manuscript, technical report, dataset, or challenge submission, please also cite the corresponding academic reference.
