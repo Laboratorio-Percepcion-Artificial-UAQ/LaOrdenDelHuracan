@@ -357,9 +357,6 @@ If you use this repository in academic or technical work, please cite it as:
 ```
 
 This repository was developed as a collaborative academic and technical effort between the Laboratorio de Percepción Artificial, Universidad Autónoma de Querétaro, and the Instituto Mexicano de Tecnología del Agua (IMTA).
-
-If this repository becomes associated with a manuscript, technical report, dataset, or challenge submission, please also cite the corresponding academic reference.
-
 ```
 
 If this repository becomes associated with a manuscript, technical report, dataset, or challenge submission, please also cite the corresponding academic reference.
