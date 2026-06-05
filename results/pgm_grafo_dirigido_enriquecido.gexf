@@ -1,0 +1,2317 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-06-05">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="node_origen" type="string" />
+      <attribute id="1" title="node_destino" type="string" />
+      <attribute id="2" title="edge_id" type="string" />
+      <attribute id="3" title="frecuencia_transicion" type="long" />
+      <attribute id="4" title="huracanes_unicos" type="long" />
+      <attribute id="5" title="anios_unicos" type="long" />
+      <attribute id="6" title="velocidad_media" type="double" />
+      <attribute id="7" title="velocidad_maxima" type="double" />
+      <attribute id="8" title="cambio_promedio_intensidad" type="double" />
+      <attribute id="9" title="cambio_maximo_intensidad" type="double" />
+      <attribute id="10" title="cambio_minimo_intensidad" type="double" />
+      <attribute id="11" title="cambio_promedio_presion" type="double" />
+      <attribute id="12" title="cambio_minimo_presion" type="double" />
+      <attribute id="13" title="cambio_maximo_presion" type="double" />
+      <attribute id="14" title="distancia_media_km" type="double" />
+      <attribute id="15" title="fecha_inicio" type="string" />
+      <attribute id="16" title="fecha_fin" type="string" />
+      <attribute id="17" title="era5_sst_c_cobertura_arista" type="double" />
+      <attribute id="18" title="era5_msl_hpa_cobertura_arista" type="double" />
+      <attribute id="19" title="era5_t2m_c_cobertura_arista" type="double" />
+      <attribute id="20" title="era5_d2m_c_cobertura_arista" type="double" />
+      <attribute id="21" title="era5_rh700_pct_cobertura_arista" type="double" />
+      <attribute id="22" title="era5_rh500_pct_cobertura_arista" type="double" />
+      <attribute id="23" title="era5_q700_kgkg_cobertura_arista" type="double" />
+      <attribute id="24" title="era5_vo850_s1_cobertura_arista" type="double" />
+      <attribute id="25" title="era5_u850_ms_cobertura_arista" type="double" />
+      <attribute id="26" title="era5_v850_ms_cobertura_arista" type="double" />
+      <attribute id="27" title="era5_u200_ms_cobertura_arista" type="double" />
+      <attribute id="28" title="era5_v200_ms_cobertura_arista" type="double" />
+      <attribute id="29" title="era5_shear_200_850_ms_cobertura_arista" type="double" />
+      <attribute id="30" title="cem_distancia_tierra_km_media_arista" type="double" />
+      <attribute id="31" title="cem_distancia_tierra_km_min_arista" type="double" />
+      <attribute id="32" title="cem_distancia_tierra_km_max_arista" type="double" />
+      <attribute id="33" title="cem_distancia_tierra_km_cobertura_arista" type="double" />
+      <attribute id="34" title="cem_elevacion_cercana_m_media_arista" type="double" />
+      <attribute id="35" title="cem_elevacion_cercana_m_min_arista" type="double" />
+      <attribute id="36" title="cem_elevacion_cercana_m_max_arista" type="double" />
+      <attribute id="37" title="cem_elevacion_cercana_m_cobertura_arista" type="double" />
+      <attribute id="38" title="cem_interaccion_orografica_100km_media_arista" type="double" />
+      <attribute id="39" title="cem_interaccion_orografica_100km_min_arista" type="double" />
+      <attribute id="40" title="cem_interaccion_orografica_100km_max_arista" type="double" />
+      <attribute id="41" title="cem_interaccion_orografica_100km_cobertura_arista" type="double" />
+      <attribute id="42" title="cem_interaccion_orografica_250km_media_arista" type="double" />
+      <attribute id="43" title="cem_interaccion_orografica_250km_min_arista" type="double" />
+      <attribute id="44" title="cem_interaccion_orografica_250km_max_arista" type="double" />
+      <attribute id="45" title="cem_interaccion_orografica_250km_cobertura_arista" type="double" />
+      <attribute id="46" title="cem_interaccion_orografica_500km_media_arista" type="double" />
+      <attribute id="47" title="cem_interaccion_orografica_500km_min_arista" type="double" />
+      <attribute id="48" title="cem_interaccion_orografica_500km_max_arista" type="double" />
+      <attribute id="49" title="cem_interaccion_orografica_500km_cobertura_arista" type="double" />
+      <attribute id="50" title="cem_elevacion_max_100km_cobertura_arista" type="double" />
+      <attribute id="51" title="cem_elevacion_max_250km_media_arista" type="double" />
+      <attribute id="52" title="cem_elevacion_max_250km_min_arista" type="double" />
+      <attribute id="53" title="cem_elevacion_max_250km_max_arista" type="double" />
+      <attribute id="54" title="cem_elevacion_max_250km_cobertura_arista" type="double" />
+      <attribute id="55" title="cem_elevacion_max_500km_cobertura_arista" type="double" />
+      <attribute id="56" title="cem_pendiente_max_100km_cobertura_arista" type="double" />
+      <attribute id="57" title="cem_pendiente_max_250km_media_arista" type="double" />
+      <attribute id="58" title="cem_pendiente_max_250km_min_arista" type="double" />
+      <attribute id="59" title="cem_pendiente_max_250km_max_arista" type="double" />
+      <attribute id="60" title="cem_pendiente_max_250km_cobertura_arista" type="double" />
+      <attribute id="61" title="cem_pendiente_max_500km_cobertura_arista" type="double" />
+      <attribute id="62" title="cem_rugosidad_max_100km_cobertura_arista" type="double" />
+      <attribute id="63" title="cem_rugosidad_max_250km_media_arista" type="double" />
+      <attribute id="64" title="cem_rugosidad_max_250km_min_arista" type="double" />
+      <attribute id="65" title="cem_rugosidad_max_250km_max_arista" type="double" />
+      <attribute id="66" title="cem_rugosidad_max_250km_cobertura_arista" type="double" />
+      <attribute id="67" title="cem_rugosidad_max_500km_cobertura_arista" type="double" />
+      <attribute id="68" title="direccion_media_grados" type="double" />
+      <attribute id="69" title="meses_donde_ocurre" type="string" />
+      <attribute id="70" title="cem_clase_interaccion_100km_dominante_arista" type="string" />
+      <attribute id="71" title="cem_clase_interaccion_250km_dominante_arista" type="string" />
+      <attribute id="72" title="total_salidas_origen" type="long" />
+      <attribute id="73" title="probabilidad_transicion" type="double" />
+      <attribute id="74" title="probabilidad_global" type="double" />
+      <attribute id="75" title="costo_probabilistico" type="double" />
+      <attribute id="76" title="frecuencia_norm" type="double" />
+      <attribute id="77" title="penalizacion_baja_frecuencia" type="double" />
+      <attribute id="78" title="costo_dijkstra" type="double" />
+      <attribute id="79" title="score_evidencia" type="double" />
+      <attribute id="80" title="peso_no_normalizado" type="double" />
+      <attribute id="81" title="probabilidad_condicionada" type="double" />
+      <attribute id="82" title="costo_probabilistico_condicionado" type="float" />
+      <attribute id="83" title="cem_elevacion_max_500km_media_arista" type="double" />
+      <attribute id="84" title="cem_elevacion_max_500km_min_arista" type="double" />
+      <attribute id="85" title="cem_elevacion_max_500km_max_arista" type="double" />
+      <attribute id="86" title="cem_pendiente_max_500km_media_arista" type="double" />
+      <attribute id="87" title="cem_pendiente_max_500km_min_arista" type="double" />
+      <attribute id="88" title="cem_pendiente_max_500km_max_arista" type="double" />
+      <attribute id="89" title="cem_rugosidad_max_500km_media_arista" type="double" />
+      <attribute id="90" title="cem_rugosidad_max_500km_min_arista" type="double" />
+      <attribute id="91" title="cem_rugosidad_max_500km_max_arista" type="double" />
+      <attribute id="92" title="cem_clase_interaccion_500km_dominante_arista" type="string" />
+      <attribute id="93" title="cem_elevacion_max_100km_media_arista" type="double" />
+      <attribute id="94" title="cem_elevacion_max_100km_min_arista" type="double" />
+      <attribute id="95" title="cem_elevacion_max_100km_max_arista" type="double" />
+      <attribute id="96" title="cem_pendiente_max_100km_media_arista" type="double" />
+      <attribute id="97" title="cem_pendiente_max_100km_min_arista" type="double" />
+      <attribute id="98" title="cem_pendiente_max_100km_max_arista" type="double" />
+      <attribute id="99" title="cem_rugosidad_max_100km_media_arista" type="double" />
+      <attribute id="100" title="cem_rugosidad_max_100km_min_arista" type="double" />
+      <attribute id="101" title="cem_rugosidad_max_100km_max_arista" type="double" />
+    </attributes>
+    <nodes>
+      <node id="HDB_20" label="HDB_20" />
+      <node id="HDB_16" label="HDB_16" />
+      <node id="HDB_14" label="HDB_14" />
+      <node id="HDB_19" label="HDB_19" />
+      <node id="HDB_15" label="HDB_15" />
+      <node id="HDB_13" label="HDB_13" />
+      <node id="HDB_10" label="HDB_10" />
+      <node id="HDB_11" label="HDB_11" />
+      <node id="HDB_17" label="HDB_17" />
+      <node id="HDB_7" label="HDB_7" />
+      <node id="HDB_5" label="HDB_5" />
+      <node id="HDB_9" label="HDB_9" />
+      <node id="HDB_4" label="HDB_4" />
+      <node id="HDB_18" label="HDB_18" />
+      <node id="HDB_3" label="HDB_3" />
+      <node id="HDB_12" label="HDB_12" />
+      <node id="HDB_2" label="HDB_2" />
+    </nodes>
+    <edges>
+      <edge source="HDB_20" target="HDB_16" id="0" weight="0.23157894736842113">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_16" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_16" />
+          <attvalue for="3" value="22" />
+          <attvalue for="4" value="22" />
+          <attvalue for="5" value="21" />
+          <attvalue for="6" value="17.809872570720938" />
+          <attvalue for="7" value="39.08626835103636" />
+          <attvalue for="8" value="-4.7727272727272725" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-15.0" />
+          <attvalue for="11" value="2.583333333333333" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="6.0" />
+          <attvalue for="14" value="106.85923542432562" />
+          <attvalue for="15" value="1956-08-24 12:00:00" />
+          <attvalue for="16" value="2022-08-01 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="886.0987857155986" />
+          <attvalue for="31" value="847.6731683515135" />
+          <attvalue for="32" value="963.6875115604686" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="304.4160634286343" />
+          <attvalue for="69" value="8 (9), 9 (6), 7 (5), 10 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.231578947368421" />
+          <attvalue for="74" value="0.1476510067114094" />
+          <attvalue for="75" value="1.4628344382379068" />
+          <attvalue for="76" value="1.0" />
+          <attvalue for="77" value="0.0" />
+          <attvalue for="78" value="1.4628344382379068" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.231578947368421" />
+          <attvalue for="81" value="0.23157894736842113" />
+          <attvalue for="82" value="1.4628344382422247" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_14" id="1" weight="0.1894736842105264">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_14" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_14" />
+          <attvalue for="3" value="18" />
+          <attvalue for="4" value="18" />
+          <attvalue for="5" value="16" />
+          <attvalue for="6" value="18.601237027365357" />
+          <attvalue for="7" value="28.62169079810586" />
+          <attvalue for="8" value="-4.166666666666667" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-20.0" />
+          <attvalue for="11" value="2.111111111111111" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="5.0" />
+          <attvalue for="14" value="111.60742216419212" />
+          <attvalue for="15" value="1957-10-03 06:00:00" />
+          <attvalue for="16" value="2025-08-27 06:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="758.6023140603287" />
+          <attvalue for="31" value="728.334946387376" />
+          <attvalue for="32" value="790.4749308001889" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="298.9928073246608" />
+          <attvalue for="69" value="9 (6), 7 (5), 8 (5), 6 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.1894736842105263" />
+          <attvalue for="74" value="0.1208053691275167" />
+          <attvalue for="75" value="1.6635051336990982" />
+          <attvalue for="76" value="0.8181818181818182" />
+          <attvalue for="77" value="0.1818181818181817" />
+          <attvalue for="78" value="1.754414224608189" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.1894736842105263" />
+          <attvalue for="81" value="0.1894736842105264" />
+          <attvalue for="82" value="1.6635051337043756" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_19" id="2" weight="0.16842105263157897">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_19" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_19" />
+          <attvalue for="3" value="16" />
+          <attvalue for="4" value="16" />
+          <attvalue for="5" value="15" />
+          <attvalue for="6" value="17.011745544566622" />
+          <attvalue for="7" value="31.609502296087523" />
+          <attvalue for="8" value="-2.8125" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="-15.0" />
+          <attvalue for="11" value="2.6666666666666665" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="12.0" />
+          <attvalue for="14" value="102.07047326739972" />
+          <attvalue for="15" value="1953-08-26 18:00:00" />
+          <attvalue for="16" value="2022-09-08 06:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="153.2057773779197" />
+          <attvalue for="31" value="105.90257615871244" />
+          <attvalue for="32" value="190.93104192038368" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="7.0" />
+          <attvalue for="35" value="7.0" />
+          <attvalue for="36" value="7.0" />
+          <attvalue for="37" value="0.125" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.3103971813138096" />
+          <attvalue for="43" value="0.2525328201868003" />
+          <attvalue for="44" value="0.3956946852871733" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.4232675373982886" />
+          <attvalue for="47" value="0.3968598522185638" />
+          <attvalue for="48" value="0.4563797782517337" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="618.5625" />
+          <attvalue for="52" value="507.0" />
+          <attvalue for="53" value="1040.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="2042.0" />
+          <attvalue for="84" value="2042.0" />
+          <attvalue for="85" value="2042.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="1005.0" />
+          <attvalue for="64" value="1005.0" />
+          <attvalue for="65" value="1005.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1236.0" />
+          <attvalue for="90" value="1236.0" />
+          <attvalue for="91" value="1236.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="323.5199443213381" />
+          <attvalue for="69" value="9 (10), 8 (4), 7 (1), 10 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="baja" />
+          <attvalue for="92" value="baja" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.1684210526315789" />
+          <attvalue for="74" value="0.1073825503355704" />
+          <attvalue for="75" value="1.781288169354822" />
+          <attvalue for="76" value="0.7272727272727273" />
+          <attvalue for="77" value="0.2727272727272727" />
+          <attvalue for="78" value="1.9176518057184584" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.1684210526315789" />
+          <attvalue for="81" value="0.16842105263157897" />
+          <attvalue for="82" value="1.7812881693607594" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_13" id="3" weight="0.11578947368421057">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_13" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_13" />
+          <attvalue for="3" value="11" />
+          <attvalue for="4" value="11" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="17.46335967566765" />
+          <attvalue for="7" value="24.67022388528554" />
+          <attvalue for="8" value="0.9090909090909092" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="-0.4" />
+          <attvalue for="12" value="-2.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="104.78015805400592" />
+          <attvalue for="15" value="1967-10-21 06:00:00" />
+          <attvalue for="16" value="2025-07-31 18:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="844.6584940677865" />
+          <attvalue for="31" value="799.5660859786415" />
+          <attvalue for="32" value="903.029086456022" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="280.9746006635602" />
+          <attvalue for="69" value="7 (4), 10 (3), 6 (2), 8 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.1157894736842105" />
+          <attvalue for="74" value="0.0738255033557047" />
+          <attvalue for="75" value="2.155981618793534" />
+          <attvalue for="76" value="0.5" />
+          <attvalue for="77" value="0.5" />
+          <attvalue for="78" value="2.405981618793534" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.1157894736842105" />
+          <attvalue for="81" value="0.11578947368421057" />
+          <attvalue for="82" value="2.15598161880217" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_10" id="4" weight="0.08421052631578944">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_10" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_10" />
+          <attvalue for="3" value="8" />
+          <attvalue for="4" value="8" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="20.863715247028665" />
+          <attvalue for="7" value="28.61276132821389" />
+          <attvalue for="8" value="-5.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-15.0" />
+          <attvalue for="11" value="3.6666666666666665" />
+          <attvalue for="12" value="3.0" />
+          <attvalue for="13" value="4.0" />
+          <attvalue for="14" value="125.182291482172" />
+          <attvalue for="15" value="1966-08-04 18:00:00" />
+          <attvalue for="16" value="2018-07-05 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="1180.8207492805604" />
+          <attvalue for="31" value="1100.8795590781715" />
+          <attvalue for="32" value="1211.66135834" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="286.3126107937888" />
+          <attvalue for="69" value="7 (5), 8 (3)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.0842105263157894" />
+          <attvalue for="74" value="0.0536912751677852" />
+          <attvalue for="75" value="2.47443534990883" />
+          <attvalue for="76" value="0.3636363636363636" />
+          <attvalue for="77" value="0.6363636363636364" />
+          <attvalue for="78" value="2.7926171680906484" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.0842105263157894" />
+          <attvalue for="81" value="0.08421052631578944" />
+          <attvalue for="82" value="2.4744353499207055" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_17" id="5" weight="0.06315789473684214">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_17" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_17" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="21.161936950467023" />
+          <attvalue for="7" value="36.33702284355393" />
+          <attvalue for="8" value="-2.5" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-10.0" />
+          <attvalue for="11" value="1.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="3.0" />
+          <attvalue for="14" value="126.97162170280212" />
+          <attvalue for="15" value="1966-09-13 18:00:00" />
+          <attvalue for="16" value="2018-10-12 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="406.30997864044986" />
+          <attvalue for="31" value="388.5142406028017" />
+          <attvalue for="32" value="443.2786622520846" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.1873123301951403" />
+          <attvalue for="47" value="0.1383361238340746" />
+          <attvalue for="48" value="0.227840149916736" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="1118.8333333333333" />
+          <attvalue for="84" value="609.0" />
+          <attvalue for="85" value="1738.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1005.3333333333334" />
+          <attvalue for="90" value="1005.0" />
+          <attvalue for="91" value="1006.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="353.70451316146534" />
+          <attvalue for="69" value="9 (2), 10 (2), 6 (1), 8 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="muy_baja" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.0631578947368421" />
+          <attvalue for="74" value="0.0402684563758389" />
+          <attvalue for="75" value="2.7621174223566523" />
+          <attvalue for="76" value="0.2727272727272727" />
+          <attvalue for="77" value="0.7272727272727273" />
+          <attvalue for="78" value="3.125753785993016" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.0631578947368421" />
+          <attvalue for="81" value="0.06315789473684214" />
+          <attvalue for="82" value="2.7621174223724854" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_9" id="6" weight="0.052631578947368425">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_9" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_9" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="13.96336001503384" />
+          <attvalue for="7" value="15.676917204640176" />
+          <attvalue for="8" value="-4.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-10.0" />
+          <attvalue for="11" value="3.333333333333333" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="6.0" />
+          <attvalue for="14" value="83.78016009020303" />
+          <attvalue for="15" value="1949-06-22 18:00:00" />
+          <attvalue for="16" value="2009-10-03 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="488.73823845416166" />
+          <attvalue for="31" value="455.8720552162072" />
+          <attvalue for="32" value="511.8732108375136" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0725701646532205" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.1416780938799662" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="688.3333333333334" />
+          <attvalue for="84" value="473.0" />
+          <attvalue for="85" value="876.0" />
+          <attvalue for="55" value="0.6" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="0.6" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1005.6666666666666" />
+          <attvalue for="90" value="1005.0" />
+          <attvalue for="91" value="1006.0" />
+          <attvalue for="67" value="0.6" />
+          <attvalue for="68" value="5.961250673162624" />
+          <attvalue for="69" value="9 (2), 10 (2), 6 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="muy_baja" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.0526315789473684" />
+          <attvalue for="74" value="0.0335570469798657" />
+          <attvalue for="75" value="2.9444389791474403" />
+          <attvalue for="76" value="0.2272727272727272" />
+          <attvalue for="77" value="0.7727272727272727" />
+          <attvalue for="78" value="3.3308026155110766" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.0526315789473684" />
+          <attvalue for="81" value="0.052631578947368425" />
+          <attvalue for="82" value="2.9444389791664403" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_11" id="7" weight="0.03157894736842102">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_11" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_11" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="22.482057704920205" />
+          <attvalue for="7" value="27.36457931899054" />
+          <attvalue for="8" value="3.333333333333333" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="-1.0" />
+          <attvalue for="12" value="-1.0" />
+          <attvalue for="13" value="-1.0" />
+          <attvalue for="14" value="134.89234622952122" />
+          <attvalue for="15" value="1972-11-15 12:00:00" />
+          <attvalue for="16" value="2015-11-23 18:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="689.002559267121" />
+          <attvalue for="31" value="682.954066077389" />
+          <attvalue for="32" value="693.3325681287878" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="267.43489970208554" />
+          <attvalue for="69" value="11 (2), 9 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.031578947368421" />
+          <attvalue for="74" value="0.0201342281879194" />
+          <attvalue for="75" value="3.4552646029007645" />
+          <attvalue for="76" value="0.1363636363636363" />
+          <attvalue for="77" value="0.8636363636363636" />
+          <attvalue for="78" value="3.887082784718946" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.031578947368421" />
+          <attvalue for="81" value="0.03157894736842102" />
+          <attvalue for="82" value="3.455264602932432" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_3" id="8" weight="0.03157894736842102">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_3" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_3" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="30.6478462872794" />
+          <attvalue for="7" value="32.68979345481072" />
+          <attvalue for="8" value="-1.6666666666666667" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-5.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="183.8870777236764" />
+          <attvalue for="15" value="1957-10-22 00:00:00" />
+          <attvalue for="16" value="2009-10-21 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="83.35688670086107" />
+          <attvalue for="31" value="78.18911875861005" />
+          <attvalue for="32" value="86.590690160175" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.2011129455481108" />
+          <attvalue for="39" value="0.1849926265875066" />
+          <attvalue for="40" value="0.2288041470520001" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.5677354266037447" />
+          <attvalue for="43" value="0.5668407518867312" />
+          <attvalue for="44" value="0.5690926512457153" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.5993693357110438" />
+          <attvalue for="47" value="0.5680808120778417" />
+          <attvalue for="48" value="0.6174992038764607" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="93" value="368.3333333333333" />
+          <attvalue for="94" value="265.0" />
+          <attvalue for="95" value="575.0" />
+          <attvalue for="50" value="1.0" />
+          <attvalue for="51" value="3177.6666666666665" />
+          <attvalue for="52" value="3115.0" />
+          <attvalue for="53" value="3209.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="3897.3333333333335" />
+          <attvalue for="84" value="3256.0" />
+          <attvalue for="85" value="4218.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="96" value="33.87203527971346" />
+          <attvalue for="97" value="33.87203527971346" />
+          <attvalue for="98" value="33.87203527971346" />
+          <attvalue for="56" value="1.0" />
+          <attvalue for="57" value="37.10130647823019" />
+          <attvalue for="58" value="37.10130647823019" />
+          <attvalue for="59" value="37.10130647823019" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="37.10130647823019" />
+          <attvalue for="87" value="37.10130647823019" />
+          <attvalue for="88" value="37.10130647823019" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="99" value="1005.3333333333334" />
+          <attvalue for="100" value="1005.0" />
+          <attvalue for="101" value="1006.0" />
+          <attvalue for="62" value="1.0" />
+          <attvalue for="63" value="1483.0" />
+          <attvalue for="64" value="1391.0" />
+          <attvalue for="65" value="1529.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1533.0" />
+          <attvalue for="90" value="1533.0" />
+          <attvalue for="91" value="1533.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="36.83970745161588" />
+          <attvalue for="69" value="10 (3)" />
+          <attvalue for="70" value="muy_baja" />
+          <attvalue for="71" value="media" />
+          <attvalue for="92" value="media" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.031578947368421" />
+          <attvalue for="74" value="0.0201342281879194" />
+          <attvalue for="75" value="3.4552646029007645" />
+          <attvalue for="76" value="0.1363636363636363" />
+          <attvalue for="77" value="0.8636363636363636" />
+          <attvalue for="78" value="3.887082784718946" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.031578947368421" />
+          <attvalue for="81" value="0.03157894736842102" />
+          <attvalue for="82" value="3.455264602932432" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_18" id="9" weight="0.02105263157894731">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_18" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_18" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="24.94526181887958" />
+          <attvalue for="7" value="33.12485787677057" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="14" value="149.67157091327746" />
+          <attvalue for="15" value="1954-09-07 06:00:00" />
+          <attvalue for="16" value="1971-09-29 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="243.96779048274016" />
+          <attvalue for="31" value="239.29482179718988" />
+          <attvalue for="32" value="248.64075916829043" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0872072022679776" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.1744144045359552" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.3597341282249143" />
+          <attvalue for="47" value="0.3564630501450291" />
+          <attvalue for="48" value="0.3630052063047995" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="138.5" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="277.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="2042.0" />
+          <attvalue for="84" value="2042.0" />
+          <attvalue for="85" value="2042.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="1005.0" />
+          <attvalue for="64" value="1005.0" />
+          <attvalue for="65" value="1005.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1236.0" />
+          <attvalue for="90" value="1236.0" />
+          <attvalue for="91" value="1236.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="353.9626257163493" />
+          <attvalue for="69" value="9 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="baja" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.0210526315789473" />
+          <attvalue for="74" value="0.0134228187919463" />
+          <attvalue for="75" value="3.860729710993096" />
+          <attvalue for="76" value="0.0909090909090909" />
+          <attvalue for="77" value="0.9090909090909092" />
+          <attvalue for="78" value="4.31527516553855" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.0210526315789473" />
+          <attvalue for="81" value="0.02105263157894731" />
+          <attvalue for="82" value="3.8607297110405985" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_20" target="HDB_15" id="10" weight="0.010526315789473606">
+        <attvalues>
+          <attvalue for="0" value="HDB_20" />
+          <attvalue for="1" value="HDB_15" />
+          <attvalue for="2" value="HDB_20 -&gt; HDB_15" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="30.35630841836736" />
+          <attvalue for="7" value="30.35630841836736" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="14" value="182.13785051020412" />
+          <attvalue for="15" value="1968-08-27 00:00:00" />
+          <attvalue for="16" value="1968-08-27 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="909.9735690721246" />
+          <attvalue for="31" value="909.9735690721246" />
+          <attvalue for="32" value="909.9735690721246" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="317.32413713978985" />
+          <attvalue for="69" value="8 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="95" />
+          <attvalue for="73" value="0.0105263157894736" />
+          <attvalue for="74" value="0.0067114093959731" />
+          <attvalue for="75" value="4.553876891505541" />
+          <attvalue for="76" value="0.0454545454545454" />
+          <attvalue for="77" value="0.9545454545454546" />
+          <attvalue for="78" value="5.031149618778269" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.0105263157894736" />
+          <attvalue for="81" value="0.010526315789473606" />
+          <attvalue for="82" value="4.553876891600548" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_16" target="HDB_15" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_16" />
+          <attvalue for="1" value="HDB_15" />
+          <attvalue for="2" value="HDB_16 -&gt; HDB_15" />
+          <attvalue for="3" value="13" />
+          <attvalue for="4" value="13" />
+          <attvalue for="5" value="12" />
+          <attvalue for="6" value="14.908548056966527" />
+          <attvalue for="7" value="24.1615438782742" />
+          <attvalue for="8" value="-1.9230769230769231" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="-10.0" />
+          <attvalue for="11" value="1.1666666666666667" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="3.0" />
+          <attvalue for="14" value="89.45128834179917" />
+          <attvalue for="15" value="1959-09-25 06:00:00" />
+          <attvalue for="16" value="2020-09-16 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="927.00185899311" />
+          <attvalue for="31" value="895.0152649980831" />
+          <attvalue for="32" value="969.8275662069648" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="291.31365996892794" />
+          <attvalue for="69" value="9 (7), 8 (4), 7 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="13" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.087248322147651" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.5909090909090909" />
+          <attvalue for="77" value="0.409090909090909" />
+          <attvalue for="78" value="0.2045454545444544" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_14" target="HDB_20" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_14" />
+          <attvalue for="1" value="HDB_20" />
+          <attvalue for="2" value="HDB_14 -&gt; HDB_20" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="24.368665152842865" />
+          <attvalue for="7" value="27.71649964304625" />
+          <attvalue for="8" value="-5.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-10.0" />
+          <attvalue for="11" value="3.0" />
+          <attvalue for="12" value="1.0" />
+          <attvalue for="13" value="5.0" />
+          <attvalue for="14" value="146.21199091705722" />
+          <attvalue for="15" value="1995-07-21 00:00:00" />
+          <attvalue for="16" value="2005-07-03 06:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="869.0521988899877" />
+          <attvalue for="31" value="856.8752773221855" />
+          <attvalue for="32" value="881.2291204577898" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="263.25977723308176" />
+          <attvalue for="69" value="7 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="2" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0134228187919463" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.0909090909090909" />
+          <attvalue for="77" value="0.9090909090909092" />
+          <attvalue for="78" value="0.4545454545444544" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_19" target="HDB_18" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_19" />
+          <attvalue for="1" value="HDB_18" />
+          <attvalue for="2" value="HDB_19 -&gt; HDB_18" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="23.977451160554324" />
+          <attvalue for="7" value="29.967865643020616" />
+          <attvalue for="8" value="-1.6666666666666667" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-5.0" />
+          <attvalue for="11" value="2.5" />
+          <attvalue for="12" value="1.0" />
+          <attvalue for="13" value="4.0" />
+          <attvalue for="14" value="143.86470696332594" />
+          <attvalue for="15" value="1969-08-24 12:00:00" />
+          <attvalue for="16" value="1995-08-12 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="234.20085063289343" />
+          <attvalue for="31" value="216.2255048777872" />
+          <attvalue for="32" value="248.8802775365783" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="0.3333333333333333" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.1304757801115119" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.2144956625605557" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.3644740756684432" />
+          <attvalue for="47" value="0.3562953872872276" />
+          <attvalue for="48" value="0.3791537281483814" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="242.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="449.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="1995.6666666666667" />
+          <attvalue for="84" value="1903.0" />
+          <attvalue for="85" value="2042.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="1005.0" />
+          <attvalue for="64" value="1005.0" />
+          <attvalue for="65" value="1005.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1236.0" />
+          <attvalue for="90" value="1236.0" />
+          <attvalue for="91" value="1236.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="298.3996145267239" />
+          <attvalue for="69" value="8 (3)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="muy_baja" />
+          <attvalue for="92" value="baja" />
+          <attvalue for="72" value="3" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0201342281879194" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.1363636363636363" />
+          <attvalue for="77" value="0.8636363636363636" />
+          <attvalue for="78" value="0.4318181818171817" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_15" target="HDB_4" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_15" />
+          <attvalue for="1" value="HDB_4" />
+          <attvalue for="2" value="HDB_15 -&gt; HDB_4" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="18.740796975005328" />
+          <attvalue for="7" value="18.740796975005328" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="14" value="112.44478185003196" />
+          <attvalue for="15" value="1987-10-31 00:00:00" />
+          <attvalue for="16" value="1987-10-31 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="813.0751629627613" />
+          <attvalue for="31" value="813.0751629627613" />
+          <attvalue for="32" value="813.0751629627613" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="27.031306106671764" />
+          <attvalue for="69" value="10 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="1" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0067114093959731" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.0454545454545454" />
+          <attvalue for="77" value="0.9545454545454546" />
+          <attvalue for="78" value="0.4772727272717272" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_13" target="HDB_20" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_13" />
+          <attvalue for="1" value="HDB_20" />
+          <attvalue for="2" value="HDB_13 -&gt; HDB_20" />
+          <attvalue for="3" value="10" />
+          <attvalue for="4" value="10" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="22.880658456611005" />
+          <attvalue for="7" value="32.660821061409486" />
+          <attvalue for="8" value="-0.5" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="-15.0" />
+          <attvalue for="11" value="2.6" />
+          <attvalue for="12" value="-3.0" />
+          <attvalue for="13" value="17.0" />
+          <attvalue for="14" value="137.28395073966604" />
+          <attvalue for="15" value="1967-10-21 12:00:00" />
+          <attvalue for="16" value="2025-08-01 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="880.0390180040635" />
+          <attvalue for="31" value="781.968180334261" />
+          <attvalue for="32" value="947.6420123919185" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="299.5851492315992" />
+          <attvalue for="69" value="10 (4), 6 (3), 8 (2), 9 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="10" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0671140939597315" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.4545454545454545" />
+          <attvalue for="77" value="0.5454545454545454" />
+          <attvalue for="78" value="0.2727272727262726" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_11" target="HDB_20" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_11" />
+          <attvalue for="1" value="HDB_20" />
+          <attvalue for="2" value="HDB_11 -&gt; HDB_20" />
+          <attvalue for="3" value="6" />
+          <attvalue for="4" value="6" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="15.119471161034552" />
+          <attvalue for="7" value="17.95735888105461" />
+          <attvalue for="8" value="4.166666666666667" />
+          <attvalue for="9" value="10.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="-2.6666666666666665" />
+          <attvalue for="12" value="-7.0" />
+          <attvalue for="13" value="1.0" />
+          <attvalue for="14" value="90.7168269662073" />
+          <attvalue for="15" value="1972-08-23 06:00:00" />
+          <attvalue for="16" value="2005-10-16 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="680.9574563137036" />
+          <attvalue for="31" value="641.2911413270647" />
+          <attvalue for="32" value="706.8724108994577" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.3333333333333333" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="2.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="296.219906566378" />
+          <attvalue for="69" value="10 (2), 6 (1), 7 (1), 8 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="6" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0402684563758389" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.2727272727272727" />
+          <attvalue for="77" value="0.7272727272727273" />
+          <attvalue for="78" value="0.3636363636353635" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_17" target="HDB_9" id="17" weight="0.75">
+        <attvalues>
+          <attvalue for="0" value="HDB_17" />
+          <attvalue for="1" value="HDB_9" />
+          <attvalue for="2" value="HDB_17 -&gt; HDB_9" />
+          <attvalue for="3" value="3" />
+          <attvalue for="4" value="3" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="14.566788900345284" />
+          <attvalue for="7" value="15.076755452696624" />
+          <attvalue for="8" value="-6.666666666666667" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-15.0" />
+          <attvalue for="11" value="5.5" />
+          <attvalue for="12" value="1.0" />
+          <attvalue for="13" value="10.0" />
+          <attvalue for="14" value="87.40073340207171" />
+          <attvalue for="15" value="1984-07-09 18:00:00" />
+          <attvalue for="16" value="2015-09-09 18:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="437.2322145067144" />
+          <attvalue for="31" value="428.7693164877084" />
+          <attvalue for="32" value="445.92468401452857" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.1627364820145548" />
+          <attvalue for="47" value="0.1494106237428647" />
+          <attvalue for="48" value="0.172281075435969" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="1053.0" />
+          <attvalue for="84" value="893.0" />
+          <attvalue for="85" value="1133.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1006.0" />
+          <attvalue for="90" value="1006.0" />
+          <attvalue for="91" value="1006.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="298.9026742884416" />
+          <attvalue for="69" value="9 (2), 7 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="muy_baja" />
+          <attvalue for="72" value="4" />
+          <attvalue for="73" value="0.75" />
+          <attvalue for="74" value="0.0201342281879194" />
+          <attvalue for="75" value="0.2876820724504476" />
+          <attvalue for="76" value="0.1363636363636363" />
+          <attvalue for="77" value="0.8636363636363636" />
+          <attvalue for="78" value="0.7195002542686295" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.75" />
+          <attvalue for="81" value="0.75" />
+          <attvalue for="82" value="0.2876820724517809" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_17" target="HDB_18" id="18" weight="0.25">
+        <attvalues>
+          <attvalue for="0" value="HDB_17" />
+          <attvalue for="1" value="HDB_18" />
+          <attvalue for="2" value="HDB_17 -&gt; HDB_18" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="1" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="34.93185055035529" />
+          <attvalue for="7" value="34.93185055035529" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="209.59110330213176" />
+          <attvalue for="15" value="2018-10-12 06:00:00" />
+          <attvalue for="16" value="2018-10-12 06:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="189.44193527769255" />
+          <attvalue for="31" value="189.44193527769255" />
+          <attvalue for="32" value="189.44193527769255" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="0.0" />
+          <attvalue for="35" value="0.0" />
+          <attvalue for="36" value="0.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.2713174246639755" />
+          <attvalue for="43" value="0.2713174246639755" />
+          <attvalue for="44" value="0.2713174246639755" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.3880361877663477" />
+          <attvalue for="47" value="0.3880361877663477" />
+          <attvalue for="48" value="0.3880361877663477" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="876.0" />
+          <attvalue for="52" value="876.0" />
+          <attvalue for="53" value="876.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="1824.0" />
+          <attvalue for="84" value="1824.0" />
+          <attvalue for="85" value="1824.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="1005.0" />
+          <attvalue for="64" value="1005.0" />
+          <attvalue for="65" value="1005.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1236.0" />
+          <attvalue for="90" value="1236.0" />
+          <attvalue for="91" value="1236.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="50.12734529073896" />
+          <attvalue for="69" value="10 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="baja" />
+          <attvalue for="92" value="baja" />
+          <attvalue for="72" value="4" />
+          <attvalue for="73" value="0.25" />
+          <attvalue for="74" value="0.0067114093959731" />
+          <attvalue for="75" value="1.3862943611158909" />
+          <attvalue for="76" value="0.0454545454545454" />
+          <attvalue for="77" value="0.9545454545454546" />
+          <attvalue for="78" value="1.863567088388618" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.25" />
+          <attvalue for="81" value="0.25" />
+          <attvalue for="82" value="1.3862943611198906" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_7" target="HDB_5" id="19" weight="0.5555555555555556">
+        <attvalues>
+          <attvalue for="0" value="HDB_7" />
+          <attvalue for="1" value="HDB_5" />
+          <attvalue for="2" value="HDB_7 -&gt; HDB_5" />
+          <attvalue for="3" value="5" />
+          <attvalue for="4" value="5" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="16.32874515084266" />
+          <attvalue for="7" value="20.742287208526665" />
+          <attvalue for="8" value="-4.0" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-5.0" />
+          <attvalue for="11" value="1.2" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="2.0" />
+          <attvalue for="14" value="97.97247090505596" />
+          <attvalue for="15" value="1990-07-12 00:00:00" />
+          <attvalue for="16" value="2014-07-06 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="549.9797910097602" />
+          <attvalue for="31" value="474.2207258700877" />
+          <attvalue for="32" value="576.0362168595586" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0321232934014031" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.1606164670070156" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="1230.0" />
+          <attvalue for="84" value="1230.0" />
+          <attvalue for="85" value="1230.0" />
+          <attvalue for="55" value="0.2" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.84784342957889" />
+          <attvalue for="87" value="33.84784342957889" />
+          <attvalue for="88" value="33.84784342957889" />
+          <attvalue for="61" value="0.2" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1222.0" />
+          <attvalue for="90" value="1222.0" />
+          <attvalue for="91" value="1222.0" />
+          <attvalue for="67" value="0.2" />
+          <attvalue for="68" value="303.8970325899301" />
+          <attvalue for="69" value="7 (3), 8 (1), 9 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="muy_baja" />
+          <attvalue for="72" value="9" />
+          <attvalue for="73" value="0.5555555555555556" />
+          <attvalue for="74" value="0.0335570469798657" />
+          <attvalue for="75" value="0.5877866649003191" />
+          <attvalue for="76" value="0.2272727272727272" />
+          <attvalue for="77" value="0.7727272727272727" />
+          <attvalue for="78" value="0.9741503012639554" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.5555555555555556" />
+          <attvalue for="81" value="0.5555555555555556" />
+          <attvalue for="82" value="0.587786664902119" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_7" target="HDB_4" id="20" weight="0.4444444444444444">
+        <attvalues>
+          <attvalue for="0" value="HDB_7" />
+          <attvalue for="1" value="HDB_4" />
+          <attvalue for="2" value="HDB_7 -&gt; HDB_4" />
+          <attvalue for="3" value="4" />
+          <attvalue for="4" value="4" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="19.27270560037365" />
+          <attvalue for="7" value="22.12735097043553" />
+          <attvalue for="8" value="-7.5" />
+          <attvalue for="9" value="0.0" />
+          <attvalue for="10" value="-20.0" />
+          <attvalue for="11" value="0.5" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="1.0" />
+          <attvalue for="14" value="115.63623360224192" />
+          <attvalue for="15" value="1971-08-06 18:00:00" />
+          <attvalue for="16" value="2016-08-24 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="664.3614699122492" />
+          <attvalue for="31" value="642.0996977015509" />
+          <attvalue for="32" value="681.6413845499662" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="1.0" />
+          <attvalue for="35" value="1.0" />
+          <attvalue for="36" value="1.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.0" />
+          <attvalue for="47" value="0.0" />
+          <attvalue for="48" value="0.0" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="55" value="0.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="61" value="0.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="67" value="0.0" />
+          <attvalue for="68" value="286.7128409433501" />
+          <attvalue for="69" value="7 (2), 8 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="72" value="9" />
+          <attvalue for="73" value="0.4444444444444444" />
+          <attvalue for="74" value="0.0268456375838926" />
+          <attvalue for="75" value="0.8109302162140789" />
+          <attvalue for="76" value="0.1818181818181818" />
+          <attvalue for="77" value="0.8181818181818181" />
+          <attvalue for="78" value="1.220021125304988" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.4444444444444444" />
+          <attvalue for="81" value="0.4444444444444444" />
+          <attvalue for="82" value="0.8109302162163288" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_18" target="HDB_19" id="21" weight="0.5">
+        <attvalues>
+          <attvalue for="0" value="HDB_18" />
+          <attvalue for="1" value="HDB_19" />
+          <attvalue for="2" value="HDB_18 -&gt; HDB_19" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="16.11600393058566" />
+          <attvalue for="7" value="22.112644833585065" />
+          <attvalue for="8" value="-5.0" />
+          <attvalue for="9" value="-5.0" />
+          <attvalue for="10" value="-5.0" />
+          <attvalue for="11" value="0.5" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="1.0" />
+          <attvalue for="14" value="96.69602358351396" />
+          <attvalue for="15" value="2006-09-20 18:00:00" />
+          <attvalue for="16" value="2009-10-04 00:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="136.28312663337294" />
+          <attvalue for="31" value="115.82624518651474" />
+          <attvalue for="32" value="156.74000808023118" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.3371409153467616" />
+          <attvalue for="43" value="0.3004002675630138" />
+          <attvalue for="44" value="0.3738815631305093" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.4351133929194714" />
+          <attvalue for="47" value="0.4207935759066706" />
+          <attvalue for="48" value="0.4494332099322721" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="686.0" />
+          <attvalue for="52" value="507.0" />
+          <attvalue for="53" value="865.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="2042.0" />
+          <attvalue for="84" value="2042.0" />
+          <attvalue for="85" value="2042.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="1005.0" />
+          <attvalue for="64" value="1005.0" />
+          <attvalue for="65" value="1005.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1236.0" />
+          <attvalue for="90" value="1236.0" />
+          <attvalue for="91" value="1236.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="70.7503995776172" />
+          <attvalue for="69" value="9 (1), 10 (1)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="baja" />
+          <attvalue for="92" value="baja" />
+          <attvalue for="72" value="4" />
+          <attvalue for="73" value="0.5" />
+          <attvalue for="74" value="0.0134228187919463" />
+          <attvalue for="75" value="0.6931471805579453" />
+          <attvalue for="76" value="0.0909090909090909" />
+          <attvalue for="77" value="0.9090909090909092" />
+          <attvalue for="78" value="1.1476926351033998" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.5" />
+          <attvalue for="81" value="0.5" />
+          <attvalue for="82" value="0.6931471805599453" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_18" target="HDB_2" id="22" weight="0.5">
+        <attvalues>
+          <attvalue for="0" value="HDB_18" />
+          <attvalue for="1" value="HDB_2" />
+          <attvalue for="2" value="HDB_18 -&gt; HDB_2" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="39.97775573845943" />
+          <attvalue for="7" value="42.768364735966856" />
+          <attvalue for="8" value="-10.0" />
+          <attvalue for="9" value="-10.0" />
+          <attvalue for="10" value="-10.0" />
+          <attvalue for="11" value="2.5" />
+          <attvalue for="12" value="2.0" />
+          <attvalue for="13" value="3.0" />
+          <attvalue for="14" value="218.48235206277317" />
+          <attvalue for="15" value="1989-10-04 23:00:00" />
+          <attvalue for="16" value="2018-10-12 12:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="0.3420415757351506" />
+          <attvalue for="31" value="0.3420415757351506" />
+          <attvalue for="32" value="0.3420415757351506" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="34" value="7.0" />
+          <attvalue for="35" value="5.0" />
+          <attvalue for="36" value="9.0" />
+          <attvalue for="37" value="1.0" />
+          <attvalue for="38" value="0.5513409643731904" />
+          <attvalue for="39" value="0.547662452435378" />
+          <attvalue for="40" value="0.5550194763110027" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.5922521080633265" />
+          <attvalue for="43" value="0.5922521080633265" />
+          <attvalue for="44" value="0.5922521080633265" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.5621800188707617" />
+          <attvalue for="47" value="0.5563184601064152" />
+          <attvalue for="48" value="0.5680415776351083" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="93" value="1658.5" />
+          <attvalue for="94" value="1579.0" />
+          <attvalue for="95" value="1738.0" />
+          <attvalue for="50" value="1.0" />
+          <attvalue for="51" value="1824.0" />
+          <attvalue for="52" value="1824.0" />
+          <attvalue for="53" value="1824.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="2648.5" />
+          <attvalue for="84" value="2554.0" />
+          <attvalue for="85" value="2743.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="96" value="33.87203527971346" />
+          <attvalue for="97" value="33.87203527971346" />
+          <attvalue for="98" value="33.87203527971346" />
+          <attvalue for="56" value="1.0" />
+          <attvalue for="57" value="33.87203527971346" />
+          <attvalue for="58" value="33.87203527971346" />
+          <attvalue for="59" value="33.87203527971346" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="99" value="1005.0" />
+          <attvalue for="100" value="1005.0" />
+          <attvalue for="101" value="1005.0" />
+          <attvalue for="62" value="1.0" />
+          <attvalue for="63" value="1236.0" />
+          <attvalue for="64" value="1236.0" />
+          <attvalue for="65" value="1236.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1296.5" />
+          <attvalue for="90" value="1275.0" />
+          <attvalue for="91" value="1318.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="38.45468050740709" />
+          <attvalue for="69" value="10 (2)" />
+          <attvalue for="70" value="media" />
+          <attvalue for="71" value="media" />
+          <attvalue for="92" value="media" />
+          <attvalue for="72" value="4" />
+          <attvalue for="73" value="0.5" />
+          <attvalue for="74" value="0.0134228187919463" />
+          <attvalue for="75" value="0.6931471805579453" />
+          <attvalue for="76" value="0.0909090909090909" />
+          <attvalue for="77" value="0.9090909090909092" />
+          <attvalue for="78" value="1.1476926351033998" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="0.5" />
+          <attvalue for="81" value="0.5" />
+          <attvalue for="82" value="0.6931471805599453" />
+        </attvalues>
+      </edge>
+      <edge source="HDB_12" target="HDB_20" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="HDB_12" />
+          <attvalue for="1" value="HDB_20" />
+          <attvalue for="2" value="HDB_12 -&gt; HDB_20" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="2" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="23.285567459047734" />
+          <attvalue for="7" value="26.95603018790321" />
+          <attvalue for="8" value="2.5" />
+          <attvalue for="9" value="5.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="0.0" />
+          <attvalue for="12" value="0.0" />
+          <attvalue for="13" value="0.0" />
+          <attvalue for="14" value="139.7134047542864" />
+          <attvalue for="15" value="1984-07-08 00:00:00" />
+          <attvalue for="16" value="1990-07-10 18:00:00" />
+          <attvalue for="17" value="0.0" />
+          <attvalue for="18" value="0.0" />
+          <attvalue for="19" value="0.0" />
+          <attvalue for="20" value="0.0" />
+          <attvalue for="21" value="0.0" />
+          <attvalue for="22" value="0.0" />
+          <attvalue for="23" value="0.0" />
+          <attvalue for="24" value="0.0" />
+          <attvalue for="25" value="0.0" />
+          <attvalue for="26" value="0.0" />
+          <attvalue for="27" value="0.0" />
+          <attvalue for="28" value="0.0" />
+          <attvalue for="29" value="0.0" />
+          <attvalue for="30" value="457.6269527786116" />
+          <attvalue for="31" value="454.8664747492197" />
+          <attvalue for="32" value="460.3874308080035" />
+          <attvalue for="33" value="1.0" />
+          <attvalue for="37" value="0.0" />
+          <attvalue for="38" value="0.0" />
+          <attvalue for="39" value="0.0" />
+          <attvalue for="40" value="0.0" />
+          <attvalue for="41" value="1.0" />
+          <attvalue for="42" value="0.0" />
+          <attvalue for="43" value="0.0" />
+          <attvalue for="44" value="0.0" />
+          <attvalue for="45" value="1.0" />
+          <attvalue for="46" value="0.2197584090279013" />
+          <attvalue for="47" value="0.2083406038139635" />
+          <attvalue for="48" value="0.231176214241839" />
+          <attvalue for="49" value="1.0" />
+          <attvalue for="50" value="0.0" />
+          <attvalue for="51" value="0.0" />
+          <attvalue for="52" value="0.0" />
+          <attvalue for="53" value="0.0" />
+          <attvalue for="54" value="1.0" />
+          <attvalue for="83" value="2367.0" />
+          <attvalue for="84" value="2225.0" />
+          <attvalue for="85" value="2509.0" />
+          <attvalue for="55" value="1.0" />
+          <attvalue for="56" value="0.0" />
+          <attvalue for="57" value="0.0" />
+          <attvalue for="58" value="0.0" />
+          <attvalue for="59" value="0.0" />
+          <attvalue for="60" value="1.0" />
+          <attvalue for="86" value="33.87203527971346" />
+          <attvalue for="87" value="33.87203527971346" />
+          <attvalue for="88" value="33.87203527971346" />
+          <attvalue for="61" value="1.0" />
+          <attvalue for="62" value="0.0" />
+          <attvalue for="63" value="0.0" />
+          <attvalue for="64" value="0.0" />
+          <attvalue for="65" value="0.0" />
+          <attvalue for="66" value="1.0" />
+          <attvalue for="89" value="1166.5" />
+          <attvalue for="90" value="1125.0" />
+          <attvalue for="91" value="1208.0" />
+          <attvalue for="67" value="1.0" />
+          <attvalue for="68" value="295.5985195346966" />
+          <attvalue for="69" value="7 (2)" />
+          <attvalue for="70" value="sin_interaccion" />
+          <attvalue for="71" value="sin_interaccion" />
+          <attvalue for="92" value="muy_baja" />
+          <attvalue for="72" value="2" />
+          <attvalue for="73" value="1.0" />
+          <attvalue for="74" value="0.0134228187919463" />
+          <attvalue for="75" value="-1.000088900581841e-12" />
+          <attvalue for="76" value="0.0909090909090909" />
+          <attvalue for="77" value="0.9090909090909092" />
+          <attvalue for="78" value="0.4545454545444544" />
+          <attvalue for="79" value="1.0" />
+          <attvalue for="80" value="1.0" />
+          <attvalue for="81" value="1.0" />
+          <attvalue for="82" value="-0.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
